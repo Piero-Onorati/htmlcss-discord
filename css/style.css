@@ -179,7 +179,7 @@ section{
     font-size: 18px;
 }
 
-#section-2, #section-4{
+#section-2, #section-4, #section-5{
     margin-top:-10px;
     background-color: #f6f6f6;
 }
@@ -205,6 +205,44 @@ section{
     width: 100%;
 }
 
+/* section-5 */
+#section-5{
+    height: 300px;
+}
+
+.container-relative{
+    position: relative;
+}
+
+.section-5-content{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+}
+
+.section-5-content h2{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+    padding: 20px 0;
+     
+}
+
+
+.section-5-content .section-5-btn{
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: white;
+}
 
 /* footer */
 footer{
