@@ -151,7 +151,7 @@ nav ul li a:hover{
 /* main */
 
 section{
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .section-image{
@@ -177,6 +177,11 @@ section{
     padding-top: 30px;
     width: 65%;
     font-size: 18px;
+}
+
+#section-2{
+    margin-top:-10px;
+    background-color: #f6f6f6;
 }
 
 /* footer */
