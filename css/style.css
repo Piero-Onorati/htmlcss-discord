@@ -179,10 +179,32 @@ section{
     font-size: 18px;
 }
 
-#section-2{
+#section-2, #section-4{
     margin-top:-10px;
     background-color: #f6f6f6;
 }
+
+/* section-4 */
+.section-4-content{
+    width: 100%;
+}
+
+.section-4-content h2{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+}
+.section-4-content p{
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.section-4-content img{
+    width: 100%;
+}
+
 
 /* footer */
 footer{
