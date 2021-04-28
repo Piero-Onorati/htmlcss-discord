@@ -9,7 +9,19 @@
     margin: 0 auto;
 }
 
+header{
+    height: 80px;
+}
 
+.jumbotron{
+    min-height: 546px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 
 
 
@@ -30,6 +42,39 @@
 /* da rimuovere */
 
 .container{
-    background-color: aqua;
-    height: 1000px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 900px;
 }
+
+header{
+    background-color: bisque ;
+}
+
+.jumbotron{
+    background-color: aquamarine;
+}
+
+.section-image{
+    background-color: salmon;
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+
+.section-text{
+    background-color: plum;
+    width: 40%;
+    height: 300px;
+    float: left;
+}
+
+.section-content{
+    border: 5px solid red;
+}
+
+footer{
+    background-color: rebeccapurple;
+    height: 100px;
+}
+
+
