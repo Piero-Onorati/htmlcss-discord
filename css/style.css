@@ -128,10 +128,7 @@ nav ul li a:hover{
     box-shadow: -5px 10px 18px #888888;
 }
 
-.jumbotron-content .jumbotron-btn .right-btn:hover{
-    background-color: #616161;
-    box-shadow: -5px 10px 18px #888888;
-}
+
 
 .jumbotron-content .jumbotron-btn .left-btn i{
     margin-right: 15px;
@@ -146,27 +143,43 @@ nav ul li a:hover{
     padding: 0 20px;
 }
 
-/* da rimuovere */
+.jumbotron-content .jumbotron-btn .right-btn:hover{
+    background-color: #616161;
+    box-shadow: -5px 10px 18px #888888;
+}
 
+/* main */
+
+section{
+    padding-top: 50px;
+}
 
 .section-image{
-    background-color: salmon;
     width: 60%;
-    height: 300px;
     float: left;
 }
 
 .section-text{
-    background-color: plum;
+    padding-top: 30px;
+    padding-left: 30px;;
     width: 40%;
-    height: 300px;
     float: left;
 }
 
-.section-content{
-    border: 5px solid red;
+.section-text h2{
+    width: 55%;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 45px;
 }
 
+.section-text p{
+    padding-top: 30px;
+    width: 65%;
+    font-size: 18px;
+}
+
+/* footer */
 footer{
     background-color: rebeccapurple;
     height: 100px;
