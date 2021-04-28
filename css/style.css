@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
-body{
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* da rimuovere */
+
+.container{
     background-color: aqua;
+    height: 1000px;
 }
