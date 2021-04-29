@@ -187,8 +187,11 @@ section{
 }
 
 #section-2, #section-4, #section-5{
-    margin-top:-10px;
     background-color: #f6f6f6;
+}
+
+svg{
+    display: block;
 }
 
 /* section-4 */
@@ -352,4 +355,8 @@ footer{
     float: right;
     color:white;
     background-color: #8ea1e1;
+}
+
+.bottom-footer .footer-button:hover{
+    background-color: #9cabdf;
 }
